@@ -21,22 +21,21 @@ public class MovingWall : MonoBehaviour
     {
         if (Trigger != null)
         {
-            
+
         }
         else
         {
             Wallmovement();
         }
 
-
     }
 
     void Wallmovement()
     {
-        if (transform.position.x > WallEndLoc)
-        {
-            transform.Translate(Vector3.right * Time.deltaTime * Speed);
-        }
+        transform.position = new Vector3(21.25f, 0f, 11.5f);
+        //{
+            //transform.Translate(Vector3.forward * Speed);
+        //}
         
    
     }

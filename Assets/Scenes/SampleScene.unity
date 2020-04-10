@@ -2417,16 +2417,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938069311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bfc9b8293f5ee94b9dd7b5028370dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall: {fileID: 0}
   Trigger: {fileID: 7848303536485498743, guid: a322e1f3135cc9c4c91e91be2b4f9872, type: 3}
   WallStartLoc: 15.75
   WallEndLoc: 21.25
-  Speed: 200
+  Speed: 5000
 --- !u!1 &947510866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,6 +3260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6fb22d8cb0e6a4dab545e94615a27a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Wall: {fileID: 938069311}
 --- !u!4 &1429454685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 240997086572671063, guid: a322e1f3135cc9c4c91e91be2b4f9872,

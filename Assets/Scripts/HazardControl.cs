@@ -23,4 +23,10 @@ public class HazardControl : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other);
+
+    }
+
 }
